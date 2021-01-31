@@ -1,55 +1,30 @@
 # REACT-EMPLOYEE-DIRECTORY
 
-## Overview
+### USER STORY
+```
+AS A USER, I want to be able to view my entire 
+EMPLOYEE DIRECTORY at once so that I have quick 
+ACCESS to their information.
+```
+### BUSINESS CONTEXT
+```
+AN EMPLOYEE OR MANAGWER would benefit greatly from being able to view NON-SENSITIVE DATA about other employees. It would be particularly 
+HELPFUL to be able to filter employees by name.
+```
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+### DEVELOPMENT & TECHNOLOGIES
+```React-Employee-Directory, as its name suggests, renders a clean, intuitive UX via React front-end library. Vanilla JavaScript is sprinkled throughout the files to handle certain functions, like sorting data alphabetically, or filtering through names. Also, minimal CSS was added to various components to complement the Bootstrap elements in use - specifically a table for organizing data in a neat and professional manner. Below are links to both the GitHub repository/the deployed url, plus two screenshots - the first showing employees sorted alphabetically, the second showing the filterings of a searched name. ```
 
-## User Story
+### LINKS
+* (REPOSITORY)[https://github.com/jamescbaldwin/react-employee-directory]
+* (DEPLOYMENT)[https://jamescbaldwin.github.io/react-employee-directory/]
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+### SCREENSHOTS
+<img width="1680" alt="Screen Shot 2021-01-31 at 12 34 15 PM" src="https://user-images.githubusercontent.com/70229636/106392987-66892000-63c2-11eb-908e-4f396928910e.png">
 
-## Business Context
+<img width="1680" alt="Screen Shot 2021-01-31 at 12 34 41 PM" src="https://user-images.githubusercontent.com/70229636/106393002-74d73c00-63c2-11eb-80ea-e34f9a7bce3e.png">
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
-
-## Acceptance Criteria
-
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
-
-* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
+### CONTACT
+```
+For insight, inquiries, or general contact, email James at jamescbaldwin@gmail.com. For more information or to see more projects, you can visit his portfolio page at https://jamescbaldwin.github.io/portfolio3/.
+```
