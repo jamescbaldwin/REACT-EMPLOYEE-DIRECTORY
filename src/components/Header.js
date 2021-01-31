@@ -1,24 +1,22 @@
 import React from "react";
-//jumbotron, navbar, searchbar
-const headerStyle = {
-    padding: "30px 0",
-    color: "#ffffff",
-    backgroundColor: "#101D42",
-    width: "100%",
-    textAlign: "center",
-    borderBottom: "5px solid #DB162F",
-    marginBottom: "10px"
-}
+import logo from '../logo.svg';
+
+const imgStyle = {
+    width: "90px",
+    height: "90px"
+  }
 
 function Header(props) {
  return (
     <div className="bg-light">
     <div className="text-center header mb-2">
         <h1 className="display-4 mb-4">
-            Employee Directory
+            Employee
+        <img src={logo} className="App-logo" alt="logo" style={imgStyle} />
+            Directory
         </h1>
         <p className="lead mt-3 mb-1">
-        Click on caret to filter by heading or use the search box to narrow your results
+        Click on caret to alphabetize employees or use the search box to narrow your results
         </p>
         <p className="lead"
             >Use the search box to find employees by name.
