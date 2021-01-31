@@ -6,20 +6,26 @@ const imgStyle = {
     height: "90px"
   }
 
+const headerStyle = {
+    marginBottom: "5%",
+    paddingBottom: "2%",
+    paddingTop: "2%"
+}
+
 function Header(props) {
  return (
-    <div className="bg-light">
+    <div className="bg-info text-white" style={headerStyle}>
     <div className="text-center header mb-2">
         <h1 className="display-4 mb-4">
-            Employee
+            EMPLOYEE
         <img src={logo} className="App-logo" alt="logo" style={imgStyle} />
-            Directory
+            DIRECTORY
         </h1>
         <p className="lead mt-3 mb-1">
-        Click on caret to alphabetize employees or use the search box to narrow your results
+        CLICK ON CARET(^) TO ALPHABETIZE EMPLOYEE NAMES OR ...
         </p>
         <p className="lead"
-            >Use the search box to find employees by name.
+            >... USE THE SEARCH BOX TO FILTER YOUR RESULTS
         </p>
     </div>
     <div className="input-group">
@@ -35,9 +41,9 @@ function Header(props) {
            
         </div>
     </div>
-</div>
+    </div>
+
     )
-    
 }
 
 export default Header;
