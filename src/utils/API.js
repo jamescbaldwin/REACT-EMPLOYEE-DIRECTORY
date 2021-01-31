@@ -1,7 +1,9 @@
 import axios from "axios";
 
-export default {
+let API = {
     getUsers: function() {
-        return axios.get("https://randomuser.me/api/?results=100&nat=us,ca,fr");
+        return axios.get("https://randomuser.me/api/?results=100");
     }
 };
+
+export default API;
